@@ -33,6 +33,15 @@ This repository contains a Python API project built using FastAPI and SQLAlchemy
     pip install -r requirements.txt
 ```
 
+## Connecting to the MySQL Database
+
+Create a .env file in the root directory of the project.
+
+Add the following line to the .env file, replacing `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with your MySQL database credentials:
+```sh
+    DATABASE_URL=mysql+pymysql://<username>:<password>@<host>:<port>/<database>
+```
+
 ## Running the API
 
 1. Start the `todo_db_service`:
