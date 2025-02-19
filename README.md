@@ -6,6 +6,7 @@ This repository contains a Python API project built using FastAPI and SQLAlchemy
 
 ```text
     python-api
+    ├── .env                   # Environment variables
     ├── main_api.py            # The main API service that handles HTTP requests
     ├── todo_db_service.py     # The database service that interacts with the MySQL database
     ├── test_api.py            # Contains premade database test.
